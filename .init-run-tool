@@ -1,0 +1,4 @@
+{
+    "command": "npm run dev -- -p <port>",
+    "working_directory": "/home/kavia/workspace/code-generation/breathetrack-102306-2c72d62c/breathetrack"
+}
