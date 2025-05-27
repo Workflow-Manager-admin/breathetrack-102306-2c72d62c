@@ -1,6 +1,13 @@
 "use client";
 import { useState, useRef } from "react";
 
+/**
+ * NOTE: If issues persist with SSR, consider removing server rendering for this page.
+ * If purely client-rendered, export dynamic = "force-dynamic".
+ */
+
+export const dynamic = "force-dynamic";
+
 const COLOR_PRIMARY = "#1976D2";
 const COLOR_SECONDARY = "#FFFFFF";
 const COLOR_ACCENT = "#43A047";
