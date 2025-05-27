@@ -7,10 +7,6 @@ import type { NextConfig } from "next";
  */
 const nextConfig: NextConfig = {
   output: "standalone", // Use Node.js server output, no static export
-  experimental: {
-    // May be necessary in Next 15+ to fully disable static exports
-    appDir: true,
-  },
 };
 
 export default nextConfig;
