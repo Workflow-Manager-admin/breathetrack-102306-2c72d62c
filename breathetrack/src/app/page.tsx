@@ -1,6 +1,5 @@
-export const dynamic = "force-dynamic";
-
 "use client";
+export const dynamic = "force-dynamic";
 import { useState, useRef } from "react";
 
 const COLOR_PRIMARY = "#1976D2";
